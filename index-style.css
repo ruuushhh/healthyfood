@@ -27,11 +27,8 @@
     padding-left:50px;
 }
 
-.choice{
-  height="260px" ;
-  width="260px";
-}
-.choice:hover{
+
+#choice:hover{
     transition: transform 2s ease,color 2s ease;
     transform:translateY(-5px);
    
@@ -48,7 +45,7 @@
     padding-left:10px;
 }
 
-.choice{
+.responsive{
   height="100px" ;
   width="100px";
 }
