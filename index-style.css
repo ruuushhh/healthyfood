@@ -6,6 +6,12 @@
   padding: 10px 10px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 /*CHOICE MENU*/
 .title-text{
     font-size: 20px;
