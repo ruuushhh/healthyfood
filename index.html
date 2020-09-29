@@ -1,7 +1,7 @@
 <html>
 <head>
 <link rel = "stylesheet" href = "index-style.css">
-<script src="index-javascript.js"></script>
+
 </head>
 <body>
 <!--HEADER FILES-->
@@ -19,4 +19,31 @@
       <a  href="#"><img  id="choice"src="KadaiPaneer.jpg" height="260px" width="260px"></img></a>
       <a href="#"><img id="choice" src="Egg.jpg" height="260px" width="260px"></img></a>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--JavaScript-->
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 </body>
