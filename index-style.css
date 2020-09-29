@@ -4,5 +4,25 @@
   background-color: white;
   text-align: center;
   padding: 10px 10px;
+}
 
+/*CHOICE MENU*/
+.title-text{
+    font-size: 20px;
+    text-align: center;
+}
+#choicemenu{
+    height: auto;
+    background: #DCDCDC;
+    text-align: center;
+    padding-top:5px;
+    padding-right:50px;
+    padding-bottom:10px;
+    padding-left:50px;
+}
+#choice:hover{
+    transition: transform 2s ease,color 2s ease;
+    transform:translateY(-5px);
+   
+    cursor: pointer;
 }
