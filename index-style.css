@@ -17,7 +17,7 @@
     font-size: 20px;
     text-align: center;
 }
-#choicemenu{
+.choicemenu{
     height: auto;
     background: #DCDCDC;
     text-align: center;
@@ -27,18 +27,18 @@
     padding-left:50px;
 }
 
-#choice{
-  height="260px" 
-  width="260px"
+.choice{
+  height="260px" ;
+  width="260px";
 }
-#choice:hover{
+.choice:hover{
     transition: transform 2s ease,color 2s ease;
     transform:translateY(-5px);
    
     cursor: pointer;
 }
 @media screen and (max-width: 600px) {
-#choicemenu{
+.choicemenu{
     height: auto;
     background: #DCDCDC;
     text-align: center;
@@ -48,9 +48,9 @@
     padding-left:10px;
 }
 
-#choice{
-  height="100px" 
-  width="100px"
+.choice{
+  height="100px" ;
+  width="100px";
 }
 }
 /*topnav bar */
