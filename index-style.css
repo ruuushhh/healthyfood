@@ -45,9 +45,10 @@
     padding-left:10px;
 }
 
-.responsive{
-  height="100px" ;
-  width="100px";
+.responsive {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
 }
 }
 /*topnav bar */
