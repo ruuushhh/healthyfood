@@ -81,6 +81,16 @@
 .topnav .icon {
   display: none;
 }
+
+
+/*main menu*/
+.main{
+padding-left:220px;
+}
+@media screen and (max-width: 600px) {
+.main{
+padding-left:16px;
+}}
 /*
 @media screen and (max-width: 600px) {
   .topnav a:not(:last-child) {display: none;}
