@@ -84,6 +84,9 @@
 
 
 /*main menu*/
+.body{
+background-color:grey;
+}
 .main{
 padding-left:220px;
 background-color:grey;
