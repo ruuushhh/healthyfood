@@ -4,11 +4,11 @@
   background-color: white;
   text-align: center;
   padding: 10px 10px;
-  position:relative;
+  
 }
 
 .sticky {
-  position: relative;
+  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -83,11 +83,7 @@
   display: none;
 }
 
-.topnav{
-  position: -webkit-sticky; /* macbook Safari */
-  position: relative;
-  top: 0;
-}	
+	
 /*Sidebar*/
 .sidebar{
   width:200px; 
