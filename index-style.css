@@ -81,19 +81,27 @@
 .topnav .icon {
   display: none;
 }
-
-
+/*Sidebar*/
+.sidebar{
+  width:200px; 
+}
+@media screen and (max-width: 992px) {  
+.sidebar{
+  width:150px; 
+}
+}
 /*main menu*/
 .body{
-background-color:grey;
+  background-color:grey;
 }
 .main{
-padding-left:220px;
-background-color:grey;
+  padding-left:220px;
+  background-color:grey;
 }
 @media screen and (max-width: 992px) {
 .main{
-padding-left:16px;
-}}
+  padding-left:16px;
+ }
+}
 
 
