@@ -205,6 +205,18 @@ function header1() {
     header.classList.remove("sticky");
   }
 }
+window.onscroll = function() {navbar()};
+
+var nav = document.getElementById("myTopnav");
+var sticky = nav.offsetTop;
+
+function navbar() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
 function w3_open() {
   document.getElementById("mySidebar").style.display = "block";
 }
