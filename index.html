@@ -37,7 +37,7 @@
   </div>
 </div>
 <section>
- <div class="w3-sidebar sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style=" top:0px;" id="mySidebar">
+ <div class="w3-sidebar sidebar w3-bar-block w3-collapse w3-card w3-animate-left"  id="mySidebar">
        
   <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
   <a href="#" class="w3-bar-item w3-button">Link 1</a>
@@ -228,7 +228,16 @@ function w3_open() {
 function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
+// When the user scrolls down 500px from the top of the document, resize the sidebar top size
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    document.getElementById("mySidebar").style.top = "80px";
+  } else {
+    document.getElementById("mySidebar").style.top = "500px";
+  }
+}
 
 </script>
 </body>
