@@ -141,11 +141,13 @@
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  background-color: #4CAF50;
+  background-color: darkorange;
   cursor: pointer;
   border-radius: 12px;
 }
-
+.cartbutton: hover{
+  background-color: orange;
+}
 @media screen and (max-width: 992px) {
 .main{
   background-color:lightgrey;
