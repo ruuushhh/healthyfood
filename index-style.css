@@ -34,7 +34,7 @@
 
 
 .choice:hover{
-    transition: /*transform 2s ease,*/color 2s ease;
+    transition: transform 2s ease,color 2s ease;
     transform:translateY(-5px);
    
     cursor: pointer;
