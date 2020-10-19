@@ -92,6 +92,7 @@
 .sidebar{
   width:200px; 
   height:100%;
+  top: 0;
 }
 @media screen and (max-width: 992px) {  
 .sidebar{
