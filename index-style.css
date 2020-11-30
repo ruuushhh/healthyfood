@@ -196,4 +196,28 @@ body{
 .plus{
     color: #db4839;
 }
+.cart-column {
+  float: left;
+  width: 33%;
+  margin-top:20px;
+  padding: 0 10px;
+}
+.cart-row {
+  margin:0px 200px 0px 200px;
+  background-color:lightgrey;
+}
+.cart-main{
 
+  background-color:white;
+}
+.cart-column-item {
+  float: left;
+  width: 33%;
+  margin-top:0px;
+  padding: 0 10px;
+}
+
+.cart-row-item {
+  margin:0px 200px 0px 200px;
+  background-color:lightgrey;
+}
